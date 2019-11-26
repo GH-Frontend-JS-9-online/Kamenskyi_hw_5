@@ -1,0 +1,96 @@
+.wrapper {
+  width: 940px;
+  height: auto;
+  margin: 0 auto;
+}
+.wrapper__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.wrapper__section-portfolio {
+  margin-top: 105px;
+}
+.wrapper-section__div {
+  width: 280px;
+}
+.advantages {
+  margin-top: 85px;
+}
+.advantages-title {
+  font-size: 26px;
+  line-height: 26px;
+}
+.advantages-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.wrapper-section-div__portfolio {
+  width: 395px;
+  padding-right: 50px;
+}
+.text {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.portfolio {
+  font-size: 40px;
+}
+.portfolio-text {
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 23px;
+}
+.portfolio-text-second {
+  margin-bottom: 45px;
+}
+.more {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.more:after {
+  content: url(../images/arrow.png);
+  margin-left: 7px;
+}
+.wrapper-team {
+  display: flex;
+  flex-direction: column;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+.person div {
+  margin-left: 20px;
+}
+
+.person-name {
+  color: #314a5b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.person-position {
+  color: #f0454c;
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+.about-person {
+  font-size: 14px;
+  line-height: 20px;
+}
